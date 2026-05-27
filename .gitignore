@@ -4,3 +4,8 @@ node_modules
 *.log
 build
 dist
+
+# Deployment credentials (keep secure)
+DEPLOYMENT_CREDENTIALS.txt
+YOUR_MONGODB_URI.txt
+jwt_secret.txt
