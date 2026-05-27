@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="200" height="200">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001f5c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0080ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Large B with gradient -->
+  <path d="M 360 220 L 360 620 Q 360 620 480 620 Q 600 620 600 520 Q 600 420 520 420 Q 600 420 600 320 Q 600 220 480 220 Z M 420 280 L 460 280 Q 540 280 540 320 Q 540 360 460 360 L 420 360 Z M 420 420 L 480 420 Q 560 420 560 480 Q 560 560 480 560 L 420 560 Z" fill="url(#blueGradient)"/>
+  
+  <!-- Feather -->
+  <path d="M 380 280 Q 380 240 420 240 Q 440 240 450 260 L 460 300 Q 465 320 455 330 Q 445 340 430 335 L 390 320 Q 380 315 380 300 Z M 420 250 Q 425 250 430 255 L 445 290 Q 448 300 442 305 Q 437 310 428 308 L 395 295 Q 390 292 390 285 Z" fill="white"/>
+  
+  <!-- Nest with eggs -->
+  <ellipse cx="720" cy="380" rx="60" ry="25" fill="#001f5c"/>
+  <ellipse cx="700" cy="370" rx="20" ry="28" fill="#0080ff"/>
+  <ellipse cx="730" cy="370" rx="20" ry="28" fill="#0080ff"/>
+  
+  <!-- Plant sprout -->
+  <path d="M 740 340 L 740 300 M 740 320 Q 760 310 770 290 M 740 320 Q 720 310 710 290" stroke="#0080ff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="770" cy="280" rx="12" ry="18" fill="#0080ff"/>
+  <ellipse cx="710" cy="280" rx="12" ry="18" fill="#0080ff"/>
+  
+  <!-- Open book -->
+  <path d="M 300 540 Q 400 520 500 540 Q 400 560 300 540 Z M 300 540 L 300 580 Q 400 560 500 580 L 500 540" fill="none" stroke="#001f5c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M 400 520 L 400 560" stroke="#001f5c" stroke-width="6"/>
+  
+  <!-- Text: BlogNest -->
+  <text x="512" y="750" font-family="Arial, sans-serif" font-size="140" font-weight="bold" text-anchor="middle">
+    <tspan fill="#001f5c">Blog</tspan><tspan fill="#0080ff">Nest</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <line x1="200" y1="820" x2="380" y2="820" stroke="#001f5c" stroke-width="3"/>
+  <text x="512" y="830" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#001f5c" letter-spacing="4">
+    SHARE IDEAS. INSPIRE READERS.
+  </text>
+  <line x1="644" y1="820" x2="824" y2="820" stroke="#001f5c" stroke-width="3"/>
+</svg>

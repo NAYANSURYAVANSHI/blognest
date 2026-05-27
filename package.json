@@ -1,0 +1,14 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Full-stack blog platform with React and Node.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "echo Run 'npm run dev' in backend folder and 'npm start' in frontend folder separately",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": ["blog", "react", "nodejs", "mongodb", "express"],
+  "author": "",
+  "license": "MIT"
+}
