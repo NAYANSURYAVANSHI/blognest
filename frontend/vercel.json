@@ -1,0 +1,7 @@
+{
+  "buildCommand": "CI=false npm run build",
+  "framework": "create-react-app",
+  "env": {
+    "REACT_APP_API_URL": "https://blognest-backend.vercel.app/api"
+  }
+}
