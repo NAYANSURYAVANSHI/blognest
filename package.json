@@ -4,7 +4,8 @@
   "description": "Full-stack blog platform with React and Node.js",
   "scripts": {
     "install-all": "cd backend && npm install && cd ../frontend && npm install",
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd backend && npm install && cd frontend && npm install && npm run build",
+    "start": "cd backend && npm start",
     "dev": "echo Run 'npm run dev' in backend folder and 'npm start' in frontend folder separately",
     "backend": "cd backend && npm run dev",
     "frontend": "cd frontend && npm start"
